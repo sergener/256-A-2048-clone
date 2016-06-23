@@ -1,0 +1,20 @@
+td {
+	background: #ffffb2;
+	color: blue;
+	font-size: 60px;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+}
+
+table {
+	background: blue;
+}
+
+.num0 {
+	background: #ffffb2;
+}
+
+.num2 {
+	background: #ffc04c;
+}
