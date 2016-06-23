@@ -27,12 +27,9 @@ Game.prototype.printBoardElements = function() {
       var cell = $("#row-" + i + " .col-" + j)
       if(array[i][j] === 0) {
         cell.text("");
-        cell.removeClass("num"+/[0-9]+/);
-        cell.addClass("num0");
       }
       else {
         cell.text(array[i][j]);
-        cell.addClass("num" + array[i][j])
       }
     }
   }
