@@ -27,13 +27,32 @@ Game.prototype.printBoardElements = function() {
       var cell = $("#row-" + i + " .col-" + j)
       if(array[i][j] === 0) {
         cell.text("");
+        var classes = cell.attr("class").split(" ");
+		cell.removeClass(classes[1]);
+        cell.addClass("color"+"-"+array[i][j]);
+        // cell.removeColor(cell);
+        // cell.cellColor(cell, array[i][j]);
       }
       else {
         cell.text(array[i][j]);
+        var classes = cell.attr("class").split(" ");
+		cell.removeClass(classes[1]);
+        cell.addClass("color"+"-"+array[i][j]);
+        // cell.removeColor(cell);
+        // cell.cellColor(cell, array[i][j]);
       }
     }
   }
 }
+
+// function cellColor(cell, num) {
+// 	cell.addClass("color"+"-"+num);
+// }
+
+// function removeColor(cell) {
+	// var classes = cell.attr("class").split(" ");
+	// cell.removeClass(classes[1]);
+// }
 
 Game.prototype.moveHorizontal = function(direction, board) {
 	for(var i = 0; i < board.length; i++) {

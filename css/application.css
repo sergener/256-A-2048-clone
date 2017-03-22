@@ -1,25 +1,60 @@
 td {
-	background: #ffffb2;
-	color: blue;
+	color: #5679D6;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
 	font-size: 60px;
 	text-align: center;
 	width: 200px;
 	height: 200px;
+	border: solid 3px;
+	/*border-width: 20px;*/
+	border-color: #5679D6;
 }
 
 table {
-	background: blue;
+	background: #5679D6;
+	border: solid 3px;
+	border-color: #5679D6;
 }
 
-.num0 {
-	background: #ffffb2;
+.color-0 {
+	background: #ecfcf9;
 }
 
-.num2 {
-	background: #ffc04c;
+.color-2 {
+	background: #D0FFD6;
+}
+
+.color-4 {
+	background: #8DF48F;
+}
+
+.color-8 {
+	background: #D7FF7E;
+}
+
+.color-16 {
+	background: #FFE07E;
+}
+
+.color-32 {
+	background: #FF857E;
+}
+
+.color-64 {
+	background: #F95E8D;
+}
+
+.color-128 {
+	background: #FF5CD7;
+}
+
+.color-256 {
+	background: #D170FD;
 }
 
 #start {
+  font-family: Arial, sans-serif;
   font-weight: bold;
   color: green;
   padding: 10px;
