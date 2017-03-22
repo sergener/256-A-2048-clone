@@ -12,6 +12,11 @@ $(window).ready(function() {
 		}
 		game.compareBoards();
 		
-	});	
+	});
+
+	$("#start").on("click", function(e) {
+		var game = new Game;
+		game.printBoardElements();
+	})
 });
 		

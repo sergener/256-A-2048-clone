@@ -102,9 +102,7 @@ Game.prototype.generateNumOnBoard = function () {
 	this.board[idx[0]][idx[1]] = this.getNewNum();
 }
 
-Game.prototype.over = function () {
+// Game.prototype.over = function () {
+// 	if (this.moveHorizontal ===
+// }
 
-}
-
-Game.prototype.reset = function () {
-}

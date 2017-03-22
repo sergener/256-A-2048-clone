@@ -18,3 +18,12 @@ table {
 .num2 {
 	background: #ffc04c;
 }
+
+#start {
+  font-weight: bold;
+  color: green;
+  padding: 10px;
+  background-color: yellow;
+  width: 15%;
+  text-align: center;
+}
